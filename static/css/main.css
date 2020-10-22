@@ -158,3 +158,54 @@ to {
 }
 }
 
+
+
+
+/* Skills */
+.skills {
+    position: absolute;
+}
+.container_skills {
+    margin-left: 17%;
+    margin-right: 17%;
+}
+
+.row {
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+.skills_image {
+    width: 150px;
+    border-radius: 10%;
+    box-shadow: 1px 1px 1px 1px #888888;
+}
+.heading_skills {
+    font-size: 150px;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: rgb(221, 45, 45);
+}
+.col-sm {
+    text-align: center;
+}
+.col-sm h1 {
+    padding-top: 1%;
+    padding-bottom: 3%;
+    border-bottom: gray 1px solid;
+}
+.container_skills h2 {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background: rgb(0, 200, 167);
+
+}
+
+
+
+
+/* extra space so I can scroll */
+.extra_space {
+    margin-bottom: 1500px;
+}
