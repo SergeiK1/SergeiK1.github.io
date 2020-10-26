@@ -1,4 +1,7 @@
-
+.other {
+    display: flex;
+    flex-direction: column;
+}
 .background-image {
     width: 100%;
 }
@@ -140,16 +143,16 @@ transform: skew(0deg, -30deg);
 }
 
 .text {
-display: block;
-margin-top: 75px;
-margin-left: -30px;
-font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
-font-size: 12px;
-color: #fff;
-text-transform: uppercase;
-white-space: nowrap;
-opacity: .25;
-animation: pulse 2s linear alternate infinite;
+    display: block;
+    margin-top: 75px;
+    margin-left: -30px;
+    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    white-space: nowrap;
+    opacity: .25;
+    animation: pulse 2s linear alternate infinite;
 }
 
 @keyframes pulse {
@@ -179,7 +182,7 @@ to {
     border-radius: 10%;
     box-shadow: 1px 1px 1px 1px #888888;
 }
-.heading_skills {
+.big_heading {
     font-size: 150px;
     text-align: center;
     padding-top: 3%;
@@ -204,19 +207,5 @@ to {
 /* Acheivments */
 
 /* Goals */
-.goals {
-    position: absolute;
-}
-.heading_goals {
-    font-size: 150px;
-    text-align: center;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    background-color: rgb(221, 45, 45);
-}
 
 
-/* extra space so I can scroll */
-.extra_space {
-    margin-bottom: 1500px;
-}
