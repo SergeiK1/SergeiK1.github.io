@@ -1,0 +1,9 @@
+Corrections:
+
+basically make it more cohensive 
+make the black and yellow checkered pattern for workshop saftey sorta
+make the buttons match the original orange black lables of home page 
+add some organization 
+
+Make a fixed menue in the bottom to orient 
+

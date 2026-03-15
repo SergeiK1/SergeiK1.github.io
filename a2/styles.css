@@ -1,20 +1,46 @@
+body {
+background-image: url("concrete.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+min-height: 100vh;
+}
 img {
 width: 500px;
 height: 500px;
 border: 4px solid green;
+border-radius: 15px;
 }
 .back {
 width: 400px;
 height: 100px;
-border: 4px dashed blue;
 }
 .letter {
 width: 100px;
 height: 100px;
-border: 4px dashed blue;
+border-radius: 15px;
+}
+.main { 
+width: 800px;
+height: 200px;
 }
 .cover {
 border: 4px solid red;
 width: 1600px;
 height: 800px;
+}
+.selector { 
+border-radius: 15px;
+padding: 8px;
+
+background:
+repeating-linear-gradient(
+90deg,
+yellow 0px,
+yellow 10px,
+black 10px,
+black 20px
+);
+
 }
